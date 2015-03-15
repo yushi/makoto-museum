@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Festival"
+title_ja: "おまつり"
+categories: jekyll update
+image_thumb: festival_thumb.jpg
+images_original:
+ - festival.jpg
+images:
+ - festival_large.jpg
+---

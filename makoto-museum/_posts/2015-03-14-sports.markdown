@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Sports"
+title_ja: "うんどうかい"
+categories: jekyll update
+image_thumb: sports_thumb.jpg
+images_original:
+ - sports.jpg
+images:
+ - sports_large.jpg
+---

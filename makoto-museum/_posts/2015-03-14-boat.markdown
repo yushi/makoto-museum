@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Boat"
+title_ja: "ふね"
+categories: jekyll update
+image_thumb: boat_thumb.jpg
+images_original:
+ - boat.jpg
+images:
+ - boat_large.jpg
+---

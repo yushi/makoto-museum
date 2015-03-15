@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Swimming"
+title_ja: "すいえい"
+categories: jekyll update
+image_thumb: swimming_thumb.jpg
+images_original:
+ - swimming.jpg
+images:
+ - swimming_large.jpg
+---

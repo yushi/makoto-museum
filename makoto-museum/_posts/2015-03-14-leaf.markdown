@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Leaf"
+title_ja: "はっぱ"
+categories: jekyll update
+image_thumb: leaf_thumb.jpg
+images_original:
+ - leaf.jpg
+images:
+ - leaf_large.jpg
+---

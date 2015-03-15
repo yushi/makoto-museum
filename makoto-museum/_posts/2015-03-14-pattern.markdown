@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Pattern"
+title_ja: "もよう"
+categories: jekyll update
+image_thumb: pattern_thumb.jpg
+images_original:
+ - pattern.jpg
+images:
+ - pattern_large.jpg
+---

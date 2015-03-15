@@ -1,0 +1,45 @@
+---
+layout: default
+---
+{% include nav.html %}
+<div class="section">
+  <div class="container">
+      <div class="col-md-12">
+        <h1>{{ page.title_ja }}</h1>
+        <!-- <h1>{{ page.title }}</h1>  -->
+        <hr />
+    </div>
+
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8 center-block">
+        {% if page.images.size == 1 %}
+        <img src="{{ site.image_base }}{{page.images[0]}}{{ site.image_suffix}}"
+             class="img-responsive img-rounded center-block">
+        {% else %}
+          <div id="carousel-example-generic" data-interval="false" class="carousel slide center-block" data-ride="carousel">
+            <ol class="carousel-indicators">
+              {% for image in page.images %}
+                 <li data-target="#carousel-example-generic" data-slide-to="{{ forloop.index0}}" {% if forloop.first%}class="active">{% endif %}</li>
+              {% endfor %}
+            </ol>
+            <div class="carousel-inner">
+              {% for image in page.images %}
+                <div class="item{% if forloop.first %} active{% endif %}">
+                  <img src="{{ site.image_base }}{{image}}{{ site.image_suffix}}"
+                       class="img-responsive img-rounded">
+                </div>
+              {% endfor %}
+            </div>
+            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"><i class="icon-prev  fa fa-angle-left"></i></a>
+            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next"><i class="icon-next fa fa-angle-right"></i></a>
+        {% endif %}
+          </div>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <h1>About</h1>
+</div>
